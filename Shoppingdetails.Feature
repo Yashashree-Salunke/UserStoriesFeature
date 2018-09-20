@@ -1,5 +1,2 @@
-Feature:Shopping details
-Enter shipping address
-@
-Scenario:
-	
+Test.txt
+cjk clmcvk;vnvvvvl
