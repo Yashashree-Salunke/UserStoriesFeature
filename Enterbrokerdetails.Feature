@@ -2,6 +2,6 @@ Feature:Enter broker details
 Enter broker details
 @broker 
 Scenario:
-Given
-When
-Then	
+Given sghgmnhmhgzdhsjhsi
+When jvogfirepigpergepohipeo
+Then	ckvilvjsvjni  
