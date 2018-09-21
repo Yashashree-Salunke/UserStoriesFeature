@@ -6,6 +6,6 @@ Add book to shopping cart
 ShopTag
 Scenario:
 Shop a book
-Given
+Given User is on home page
 When
 Then	
