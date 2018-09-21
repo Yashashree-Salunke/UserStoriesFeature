@@ -1,0 +1,29 @@
+ foreach (FileInfo files in info.GetFiles("*.feature"))
+                {
+                    Console.WriteLine(files);
+                }
+                Console.WriteLine("Enter File Name to be modify:");
+                string file = Console.ReadLine();
+                string name = file.Replace(info.FullName, " ").Remove(0, 2);
+                string filename = name.Replace(".feature", ".txt");
+                File.Copy(file, filename, true);
+                string notepadPath = Environment.SystemDirectory + "\\notepad.exe";
+                Process process = new Process();
+                process.StartInfo = new ProcessStartInfo(notepadPath)
+                {
+                    WindowStyle = ProcessWindowStyle.Maximized,
+                    Arguments = filename
+                };
+
+                process.Start();
+                Console.WriteLine("Do required changes in a file");
+                process.WaitForExit();
+                File.Copy(filename, file, true);
+                Console.WriteLine(" file modified successfully");
+
+                modified.LastModified = DateTime.Now;
+                modified.IsSync = true;
+                modified.UserStoryId = 1;
+
+
+                db.ModifiedUserStories.Add(modified);
