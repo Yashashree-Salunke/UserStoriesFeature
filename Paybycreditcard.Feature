@@ -1,4 +1,4 @@
-Feature:Pay by creditcard
+﻿Feature:Pay by creditcard
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Ut odio tellus, volutpat sit amet tortor ac, venenatis tempus felis.  _Pellentesque habitant morbi tristique_ senectus et netus et malesuada fames ac turpis egestas. Donec eros turpis, imperdiet sed ligula elementum, porttitor semper lacus. Duis finibus ligula mi.
   Sed vestibulum tortor consectetur sit amet.  
@@ -17,3 +17,4 @@ Scenario:Acceptance criteria one
  > some quote 3
  
   And  the user must ensure that    Total amount receivable excludes WHT amount
+dgfhghgjdggggh
