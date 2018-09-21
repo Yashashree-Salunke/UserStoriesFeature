@@ -1,4 +1,5 @@
 Feature:Browse books
+
 Browse best Sellers and best offers
 
 @Buy
@@ -6,4 +7,5 @@ Browse best Sellers and best offers
 Scenario:AC 2
 	   
 	given this is second AC first clause
-	When
+	When ssdjslhfkejalkjg
+	Then
