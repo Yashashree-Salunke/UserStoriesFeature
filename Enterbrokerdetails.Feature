@@ -3,4 +3,5 @@ Enter broker details
 @broker 
 Scenario:
 Given
-	
+When
+Then	
