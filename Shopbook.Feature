@@ -3,10 +3,6 @@ Feature:Shop book
 Add book to shopping cart
 
 @
-ShopTag
+mytag
 Scenario:
-Shop a book
-Given User is on home page
-And scjsakjfhuouhfowqhn
-When
-Then	
+mdllshdlghreogierohgoeirjngvidl	

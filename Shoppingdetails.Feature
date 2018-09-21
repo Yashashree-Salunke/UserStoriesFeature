@@ -1,3 +1,5 @@
-Test.txt
-cjk clmcvk;vnvvvvl
-gdhcisxjjskjslcnslnsiocheoiheiojoinkclknlknlkmlklmluwqosiwpidpwodslx;slac
+Feature:Shopping details
+Enter shipping address
+@
+Scenario:
+	

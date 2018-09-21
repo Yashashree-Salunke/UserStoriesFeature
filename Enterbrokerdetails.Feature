@@ -1,7 +1,5 @@
 Feature:Enter broker details
 Enter broker details
-@broker 
+@
 Scenario:
-Given sghgmnhmhgzdhsjhsi
-When jvogfirepigpergepohipeoxxxxxjcvdskgjeroigepepjorjvkdllskvkjk
-Then	ckvilvjsvjnihjhhiuoioiucjsopucdcsdcdclklvkjsdov
+	
