@@ -7,5 +7,6 @@ ShopTag
 Scenario:
 Shop a book
 Given User is on home page
+And
 When
 Then	
